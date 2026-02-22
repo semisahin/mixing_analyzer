@@ -1,0 +1,47 @@
+app/
+└── aura-core/
+    │
+    ├── components/
+    │   └── dashboard/
+    │       ├── AccentPanel.tsx
+    │       ├── FeedbackModule.tsx
+    │       ├── FeedbackReport.tsx
+    │       ├── HeaderBar.tsx
+    │       ├── LoudnessTimelineCard.tsx
+    │       ├── RightPanel.tsx
+    │       ├── UploadHistoryCard.tsx
+    │       └── WaveformCard.tsx
+    │
+    ├── features/
+    │   ├── appearance/
+    │   │   ├── uiTokens.ts
+    │   │   └── useAppearance.ts
+    │   │
+    │   ├── history/
+    │   │   └── useUploadHistory.ts
+    │   │
+    │   ├── render/
+    │   │   ├── gonioRenderer.ts
+    │   │   ├── useWaveformCache.ts
+    │   │   └── waveformRenderer.ts
+    │   │
+    │   ├── targets/
+    │   │   └── useTargetProfile.ts
+    │   │
+    │   └── upload/
+    │       └── createUploadHandler.ts
+    │
+    ├── lib/
+    │   ├── color.ts
+    │   ├── targets.ts
+    │   └── types.ts
+    │
+    ├── stage/
+    │   ├── Dashboard.tsx
+    │   ├── LoadingStage.tsx
+    │   └── UploadStage.tsx
+    │
+    ├── favicon.ico
+    ├── globals.css
+    ├── layout.tsx
+    └── page.tsx
