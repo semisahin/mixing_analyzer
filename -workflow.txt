@@ -1,0 +1,13 @@
+# DEV START
+npm run dev
+
+# PRODUCTION TEST (vor Push)
+npm run build
+
+# CHANGES PUSHEN (→ automatisch online via Vercel)
+git add .
+git commit -m "update"
+git push
+
+# OPTIONAL: neuesten Stand holen
+git pull

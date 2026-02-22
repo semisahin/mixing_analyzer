@@ -1,0 +1,10 @@
+- Target Profile -> Tidal, Youtube, Instagram, TikTok hinzufügen
+- Right Panel ,,Stereo Image" Schrift gerade machen nicht kursiv
+- Unter Aura Core V 21 soll der Datei namen größe kleiner sein
+- Nur Mp3 upload erlauben (nicht größer als 10mb)
+- Smartphone möglichkeit checken
+- Das why? bei master status besser definieren. Besser Begründen.
+    damit man am ende was was zu tun ist.
+- How To besser findbar machen und den inhalt erweitern.
+- LoudnessTImelineCard zoom fähig machen (mit einem Button unten rechts oder so)
+- Ist es wirklich Master Risk?
