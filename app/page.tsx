@@ -99,8 +99,8 @@ export default function AuraFinalFixed() {
   const nodes = useRef<{ lNode?: AnalyserNode; rNode?: AnalyserNode }>({});
 
   // Prealloc analyzer buffers
-  const dLRef = useRef<Float32Array>(new Float32Array(1024));
-  const dRRef = useRef<Float32Array>(new Float32Array(1024));
+  const dLRef = useRef<Float32Array<ArrayBuffer>>(new Float32Array(1024));
+  const dRRef = useRef<Float32Array<ArrayBuffer>>(new Float32Array(1024));
 
   // short-term/momentary buffers
   const lufsBufferRef = useRef<LufsSample[]>([]);
